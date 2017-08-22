@@ -16,6 +16,10 @@
 		042348A71F4A843D00C44CDD /* RootTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042348A61F4A843D00C44CDD /* RootTableViewController.m */; };
 		042348BC1F4AE1B000C44CDD /* BaseAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 042348BA1F4AE1B000C44CDD /* BaseAnimation.m */; };
 		042348BD1F4AE1B000C44CDD /* BaseAnimation.xib in Resources */ = {isa = PBXBuildFile; fileRef = 042348BB1F4AE1B000C44CDD /* BaseAnimation.xib */; };
+		042348C11F4AF78C00C44CDD /* GroupAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 042348BF1F4AF78C00C44CDD /* GroupAnimation.m */; };
+		042348C21F4AF78C00C44CDD /* GroupAnimation.xib in Resources */ = {isa = PBXBuildFile; fileRef = 042348C01F4AF78C00C44CDD /* GroupAnimation.xib */; };
+		042348C61F4AFCE900C44CDD /* AdvancedAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 042348C41F4AFCE900C44CDD /* AdvancedAnimation.m */; };
+		042348C71F4AFCE900C44CDD /* AdvancedAnimation.xib in Resources */ = {isa = PBXBuildFile; fileRef = 042348C51F4AFCE900C44CDD /* AdvancedAnimation.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +38,12 @@
 		042348B91F4AE1B000C44CDD /* BaseAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseAnimation.h; sourceTree = "<group>"; };
 		042348BA1F4AE1B000C44CDD /* BaseAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseAnimation.m; sourceTree = "<group>"; };
 		042348BB1F4AE1B000C44CDD /* BaseAnimation.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BaseAnimation.xib; sourceTree = "<group>"; };
+		042348BE1F4AF78C00C44CDD /* GroupAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupAnimation.h; sourceTree = "<group>"; };
+		042348BF1F4AF78C00C44CDD /* GroupAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupAnimation.m; sourceTree = "<group>"; };
+		042348C01F4AF78C00C44CDD /* GroupAnimation.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GroupAnimation.xib; sourceTree = "<group>"; };
+		042348C31F4AFCE900C44CDD /* AdvancedAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvancedAnimation.h; sourceTree = "<group>"; };
+		042348C41F4AFCE900C44CDD /* AdvancedAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvancedAnimation.m; sourceTree = "<group>"; };
+		042348C51F4AFCE900C44CDD /* AdvancedAnimation.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AdvancedAnimation.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +116,12 @@
 				042348B91F4AE1B000C44CDD /* BaseAnimation.h */,
 				042348BA1F4AE1B000C44CDD /* BaseAnimation.m */,
 				042348BB1F4AE1B000C44CDD /* BaseAnimation.xib */,
+				042348BE1F4AF78C00C44CDD /* GroupAnimation.h */,
+				042348BF1F4AF78C00C44CDD /* GroupAnimation.m */,
+				042348C01F4AF78C00C44CDD /* GroupAnimation.xib */,
+				042348C31F4AFCE900C44CDD /* AdvancedAnimation.h */,
+				042348C41F4AFCE900C44CDD /* AdvancedAnimation.m */,
+				042348C51F4AFCE900C44CDD /* AdvancedAnimation.xib */,
 			);
 			path = C;
 			sourceTree = "<group>";
@@ -185,7 +201,9 @@
 			files = (
 				042348931F4A767B00C44CDD /* LaunchScreen.storyboard in Resources */,
 				042348BD1F4AE1B000C44CDD /* BaseAnimation.xib in Resources */,
+				042348C21F4AF78C00C44CDD /* GroupAnimation.xib in Resources */,
 				042348901F4A767B00C44CDD /* Assets.xcassets in Resources */,
+				042348C71F4AFCE900C44CDD /* AdvancedAnimation.xib in Resources */,
 				0423488E1F4A767B00C44CDD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -197,6 +215,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				042348C61F4AFCE900C44CDD /* AdvancedAnimation.m in Sources */,
+				042348C11F4AF78C00C44CDD /* GroupAnimation.m in Sources */,
 				0423488B1F4A767B00C44CDD /* ViewController.m in Sources */,
 				042348881F4A767B00C44CDD /* AppDelegate.m in Sources */,
 				042348BC1F4AE1B000C44CDD /* BaseAnimation.m in Sources */,

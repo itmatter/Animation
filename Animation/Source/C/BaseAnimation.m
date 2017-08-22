@@ -9,6 +9,7 @@
 #import "BaseAnimation.h"
 
 @interface BaseAnimation ()<CAAnimationDelegate>
+@property (strong, nonatomic) IBOutlet UILabel *info;
 @property (nonatomic, strong) CAShapeLayer *layer1;
 @property (nonatomic, strong) CAShapeLayer *layer2;
 @property (nonatomic, strong) CABasicAnimation *anim;
@@ -21,7 +22,7 @@
     
     self.view.backgroundColor = [UIColor whiteColor];
     self.title = @"Line Animation";
-    
+    self.info.text = @"";
     [self addLine1];
     [self addLine2];
     
@@ -42,7 +43,6 @@
     _layer1.strokeColor = [UIColor blueColor].CGColor;
     _layer1.lineCap = kCALineCapRound;
     _layer1.lineJoin = kCALineJoinRound;
-    _layer1.backgroundColor = [UIColor colorWithWhite:0.5 alpha:0.5].CGColor;
     [self.view.layer addSublayer:_layer1];
 }
 
@@ -86,14 +86,16 @@
 
 //颜色从有到无
 - (void)lineStrokeStart {
+    self.info.text = @"颜色从有到无";
     [self addAnimation:_layer1 keyPath:@"strokeStart" From:@0 To:@1 Duration:1 FillMode:kCAFillModeForwards Delegate:self];
-    [self addAnimation:_layer2 keyPath:@"strokeStart" From:@0 To:@1 Duration:1 FillMode:kCAFillModeForwards Delegate:self];
+    [self addAnimation:_layer2 keyPath:@"strokeStart" From:@1 To:@0 Duration:1 FillMode:kCAFillModeForwards Delegate:self];
 }
 
 //颜色从无到有
 - (void)lineStrokeEnd {
+    self.info.text = @"颜色从无到有";
     [self addAnimation:_layer1 keyPath:@"strokeEnd" From:@0 To:@1 Duration:1 FillMode:kCAFillModeForwards Delegate:self];
-    [self addAnimation:_layer2 keyPath:@"strokeEnd" From:@0 To:@1 Duration:1 FillMode:kCAFillModeForwards Delegate:self];
+    [self addAnimation:_layer2 keyPath:@"strokeEnd" From:@1 To:@0 Duration:1 FillMode:kCAFillModeForwards Delegate:self];
 }
 
 //透明度
@@ -229,8 +231,8 @@
  transform.scale.z：在z轴按比例放大缩小动画。
  position：移动位置动画。
  opacity：透明度动画
- strokeEnd :颜色从无到有
- strokeStart :颜色从有到无
+ strokeEnd :颜色从有到无
+ strokeStart :颜色从无到有
  */
 
 

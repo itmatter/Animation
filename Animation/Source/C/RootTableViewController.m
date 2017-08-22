@@ -8,6 +8,10 @@
 
 #import "RootTableViewController.h"
 #import "BaseAnimation.h"
+#import "GroupAnimation.h"
+#import "AdvancedAnimation.h"
+
+
 static NSString *cellIdentify = @"contentCell";
 
 @interface RootTableViewController ()
@@ -19,7 +23,7 @@ static NSString *cellIdentify = @"contentCell";
 #pragma mark - 懒加载
 - (NSArray *)contentArr {
     if (_contentArr ==nil) {
-        _contentArr = [NSArray arrayWithObjects:[BaseAnimation class], nil];
+        _contentArr = [NSArray arrayWithObjects:[BaseAnimation class],[GroupAnimation class],[AdvancedAnimation class], nil];
     }
     return _contentArr;
 }

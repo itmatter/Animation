@@ -11,6 +11,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BaseAnimation">
             <connections>
+                <outlet property="info" destination="gR3-QK-Jqi" id="vX6-fG-yqr"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -240,12 +241,22 @@
                         <constraint firstAttribute="height" constant="220" id="PYj-F9-Zb4"/>
                     </constraints>
                 </stackView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gR3-QK-Jqi">
+                    <rect key="frame" x="20" y="74" width="335" height="20.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="b7S-e8-wpw" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="2zt-ED-n0T"/>
+                <constraint firstItem="gR3-QK-Jqi" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="74" id="AGo-ck-6qu"/>
+                <constraint firstItem="gR3-QK-Jqi" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Bbl-7o-Utk"/>
+                <constraint firstAttribute="trailing" secondItem="gR3-QK-Jqi" secondAttribute="trailing" constant="20" id="Gff-b2-GpW"/>
                 <constraint firstItem="b7S-e8-wpw" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="30" id="LLy-RO-RWH"/>
                 <constraint firstAttribute="trailing" secondItem="b7S-e8-wpw" secondAttribute="trailing" constant="30" id="WDn-Ta-Hkm"/>
+                <constraint firstItem="gR3-QK-Jqi" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="mXN-OW-ycH"/>
                 <constraint firstAttribute="bottom" secondItem="b7S-e8-wpw" secondAttribute="bottom" constant="20" id="xsj-uy-y0L"/>
             </constraints>
         </view>
