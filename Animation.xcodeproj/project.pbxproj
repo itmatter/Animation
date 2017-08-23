@@ -23,7 +23,7 @@
 		042348CB1F4C496D00C44CDD /* CustomAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 042348C91F4C496D00C44CDD /* CustomAnimation.m */; };
 		042348CC1F4C496D00C44CDD /* CustomAnimation.xib in Resources */ = {isa = PBXBuildFile; fileRef = 042348CA1F4C496D00C44CDD /* CustomAnimation.xib */; };
 		042348D21F4C4DA200C44CDD /* ChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 042348D11F4C4DA200C44CDD /* ChartView.m */; };
-		04E3A2931F4D69CE00B8C724 /* ChartModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E3A2921F4D69CE00B8C724 /* ChartModel.m */; };
+		04E3A2961F4D6CB400B8C724 /* ChartMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E3A2951F4D6CB400B8C724 /* ChartMapView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,8 +53,8 @@
 		042348CA1F4C496D00C44CDD /* CustomAnimation.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomAnimation.xib; sourceTree = "<group>"; };
 		042348D01F4C4DA200C44CDD /* ChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartView.h; sourceTree = "<group>"; };
 		042348D11F4C4DA200C44CDD /* ChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartView.m; sourceTree = "<group>"; };
-		04E3A2911F4D69CE00B8C724 /* ChartModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartModel.h; sourceTree = "<group>"; };
-		04E3A2921F4D69CE00B8C724 /* ChartModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartModel.m; sourceTree = "<group>"; };
+		04E3A2941F4D6CB400B8C724 /* ChartMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartMapView.h; sourceTree = "<group>"; };
+		04E3A2951F4D6CB400B8C724 /* ChartMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartMapView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,8 +143,6 @@
 		042348A31F4A841800C44CDD /* M */ = {
 			isa = PBXGroup;
 			children = (
-				04E3A2911F4D69CE00B8C724 /* ChartModel.h */,
-				04E3A2921F4D69CE00B8C724 /* ChartModel.m */,
 			);
 			path = M;
 			sourceTree = "<group>";
@@ -154,6 +152,8 @@
 			children = (
 				042348D01F4C4DA200C44CDD /* ChartView.h */,
 				042348D11F4C4DA200C44CDD /* ChartView.m */,
+				04E3A2941F4D6CB400B8C724 /* ChartMapView.h */,
+				04E3A2951F4D6CB400B8C724 /* ChartMapView.m */,
 			);
 			path = V;
 			sourceTree = "<group>";
@@ -238,9 +238,9 @@
 				042348C11F4AF78C00C44CDD /* GroupAnimation.m in Sources */,
 				0423488B1F4A767B00C44CDD /* ViewController.m in Sources */,
 				042348881F4A767B00C44CDD /* AppDelegate.m in Sources */,
+				04E3A2961F4D6CB400B8C724 /* ChartMapView.m in Sources */,
 				042348BC1F4AE1B000C44CDD /* BaseAnimation.m in Sources */,
 				042348851F4A767B00C44CDD /* main.m in Sources */,
-				04E3A2931F4D69CE00B8C724 /* ChartModel.m in Sources */,
 				042348A71F4A843D00C44CDD /* RootTableViewController.m in Sources */,
 				042348D21F4C4DA200C44CDD /* ChartView.m in Sources */,
 				042348CB1F4C496D00C44CDD /* CustomAnimation.m in Sources */,

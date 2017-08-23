@@ -21,10 +21,10 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="voi-Na-erD">
-                    <rect key="frame" x="10" y="474" width="355" height="183"/>
+                    <rect key="frame" x="10" y="524" width="355" height="133"/>
                     <subviews>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DPy-eE-7mE">
-                            <rect key="frame" x="0.0" y="0.0" width="355" height="57.5"/>
+                            <rect key="frame" x="0.0" y="0.0" width="355" height="41"/>
                             <color key="backgroundColor" red="1" green="0.029831843470000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <fontDescription key="fontDescription" type="system" pointSize="20"/>
                             <state key="normal" title="柱状图">
@@ -35,7 +35,7 @@
                             </connections>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yw2-Jv-v9L">
-                            <rect key="frame" x="0.0" y="62.5" width="355" height="58"/>
+                            <rect key="frame" x="0.0" y="46" width="355" height="41"/>
                             <color key="backgroundColor" red="1" green="0.029831843470000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <fontDescription key="fontDescription" type="system" pointSize="20"/>
                             <state key="normal" title="折线图">
@@ -46,7 +46,7 @@
                             </connections>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wfz-dR-ybe">
-                            <rect key="frame" x="0.0" y="125.5" width="355" height="57.5"/>
+                            <rect key="frame" x="0.0" y="92" width="355" height="41"/>
                             <color key="backgroundColor" red="1" green="0.029831843470000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <fontDescription key="fontDescription" type="system" pointSize="20"/>
                             <state key="normal" title="圆饼图">
@@ -62,19 +62,19 @@
                     <rect key="frame" x="0.0" y="64" width="375" height="400"/>
                     <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="400" id="zwV-q1-eLq"/>
+                        <constraint firstAttribute="height" constant="400" id="ybq-kg-l7c"/>
                     </constraints>
                 </view>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="voi-Na-erD" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="ByL-ie-l1L"/>
+                <constraint firstItem="blU-bL-aB2" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="CLE-pD-NJb"/>
                 <constraint firstItem="voi-Na-erD" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="HXL-lP-TBJ"/>
-                <constraint firstItem="voi-Na-erD" firstAttribute="top" secondItem="blU-bL-aB2" secondAttribute="bottom" constant="10" id="IgA-kB-xBc"/>
                 <constraint firstAttribute="bottom" secondItem="voi-Na-erD" secondAttribute="bottom" constant="10" id="Jgr-iu-aSR"/>
-                <constraint firstItem="blU-bL-aB2" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="64" id="Rsu-Wx-JVU"/>
-                <constraint firstItem="blU-bL-aB2" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="gyI-Ny-8sy"/>
-                <constraint firstAttribute="trailing" secondItem="blU-bL-aB2" secondAttribute="trailing" id="k4t-tN-Fhs"/>
+                <constraint firstAttribute="trailing" secondItem="blU-bL-aB2" secondAttribute="trailing" id="Wlt-3c-75s"/>
+                <constraint firstItem="blU-bL-aB2" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="64" id="f5S-yG-V1y"/>
+                <constraint firstItem="voi-Na-erD" firstAttribute="top" secondItem="blU-bL-aB2" secondAttribute="bottom" constant="60" id="lZz-eU-QkH"/>
                 <constraint firstAttribute="trailing" secondItem="voi-Na-erD" secondAttribute="trailing" constant="10" id="wRo-Ml-zLa"/>
             </constraints>
             <point key="canvasLocation" x="24.5" y="52.5"/>
