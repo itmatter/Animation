@@ -20,6 +20,10 @@
 		042348C21F4AF78C00C44CDD /* GroupAnimation.xib in Resources */ = {isa = PBXBuildFile; fileRef = 042348C01F4AF78C00C44CDD /* GroupAnimation.xib */; };
 		042348C61F4AFCE900C44CDD /* AdvancedAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 042348C41F4AFCE900C44CDD /* AdvancedAnimation.m */; };
 		042348C71F4AFCE900C44CDD /* AdvancedAnimation.xib in Resources */ = {isa = PBXBuildFile; fileRef = 042348C51F4AFCE900C44CDD /* AdvancedAnimation.xib */; };
+		042348CB1F4C496D00C44CDD /* CustomAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 042348C91F4C496D00C44CDD /* CustomAnimation.m */; };
+		042348CC1F4C496D00C44CDD /* CustomAnimation.xib in Resources */ = {isa = PBXBuildFile; fileRef = 042348CA1F4C496D00C44CDD /* CustomAnimation.xib */; };
+		042348D21F4C4DA200C44CDD /* ChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 042348D11F4C4DA200C44CDD /* ChartView.m */; };
+		04E3A2931F4D69CE00B8C724 /* ChartModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E3A2921F4D69CE00B8C724 /* ChartModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +48,13 @@
 		042348C31F4AFCE900C44CDD /* AdvancedAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvancedAnimation.h; sourceTree = "<group>"; };
 		042348C41F4AFCE900C44CDD /* AdvancedAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvancedAnimation.m; sourceTree = "<group>"; };
 		042348C51F4AFCE900C44CDD /* AdvancedAnimation.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AdvancedAnimation.xib; sourceTree = "<group>"; };
+		042348C81F4C496D00C44CDD /* CustomAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAnimation.h; sourceTree = "<group>"; };
+		042348C91F4C496D00C44CDD /* CustomAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAnimation.m; sourceTree = "<group>"; };
+		042348CA1F4C496D00C44CDD /* CustomAnimation.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomAnimation.xib; sourceTree = "<group>"; };
+		042348D01F4C4DA200C44CDD /* ChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartView.h; sourceTree = "<group>"; };
+		042348D11F4C4DA200C44CDD /* ChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartView.m; sourceTree = "<group>"; };
+		04E3A2911F4D69CE00B8C724 /* ChartModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartModel.h; sourceTree = "<group>"; };
+		04E3A2921F4D69CE00B8C724 /* ChartModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +133,9 @@
 				042348C31F4AFCE900C44CDD /* AdvancedAnimation.h */,
 				042348C41F4AFCE900C44CDD /* AdvancedAnimation.m */,
 				042348C51F4AFCE900C44CDD /* AdvancedAnimation.xib */,
+				042348C81F4C496D00C44CDD /* CustomAnimation.h */,
+				042348C91F4C496D00C44CDD /* CustomAnimation.m */,
+				042348CA1F4C496D00C44CDD /* CustomAnimation.xib */,
 			);
 			path = C;
 			sourceTree = "<group>";
@@ -129,6 +143,8 @@
 		042348A31F4A841800C44CDD /* M */ = {
 			isa = PBXGroup;
 			children = (
+				04E3A2911F4D69CE00B8C724 /* ChartModel.h */,
+				04E3A2921F4D69CE00B8C724 /* ChartModel.m */,
 			);
 			path = M;
 			sourceTree = "<group>";
@@ -136,6 +152,8 @@
 		042348A41F4A841800C44CDD /* V */ = {
 			isa = PBXGroup;
 			children = (
+				042348D01F4C4DA200C44CDD /* ChartView.h */,
+				042348D11F4C4DA200C44CDD /* ChartView.m */,
 			);
 			path = V;
 			sourceTree = "<group>";
@@ -200,6 +218,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				042348931F4A767B00C44CDD /* LaunchScreen.storyboard in Resources */,
+				042348CC1F4C496D00C44CDD /* CustomAnimation.xib in Resources */,
 				042348BD1F4AE1B000C44CDD /* BaseAnimation.xib in Resources */,
 				042348C21F4AF78C00C44CDD /* GroupAnimation.xib in Resources */,
 				042348901F4A767B00C44CDD /* Assets.xcassets in Resources */,
@@ -221,7 +240,10 @@
 				042348881F4A767B00C44CDD /* AppDelegate.m in Sources */,
 				042348BC1F4AE1B000C44CDD /* BaseAnimation.m in Sources */,
 				042348851F4A767B00C44CDD /* main.m in Sources */,
+				04E3A2931F4D69CE00B8C724 /* ChartModel.m in Sources */,
 				042348A71F4A843D00C44CDD /* RootTableViewController.m in Sources */,
+				042348D21F4C4DA200C44CDD /* ChartView.m in Sources */,
+				042348CB1F4C496D00C44CDD /* CustomAnimation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

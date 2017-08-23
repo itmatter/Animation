@@ -10,6 +10,7 @@
 #import "BaseAnimation.h"
 #import "GroupAnimation.h"
 #import "AdvancedAnimation.h"
+#import "CustomAnimation.h"
 
 
 static NSString *cellIdentify = @"contentCell";
@@ -23,7 +24,12 @@ static NSString *cellIdentify = @"contentCell";
 #pragma mark - 懒加载
 - (NSArray *)contentArr {
     if (_contentArr ==nil) {
-        _contentArr = [NSArray arrayWithObjects:[BaseAnimation class],[GroupAnimation class],[AdvancedAnimation class], nil];
+        _contentArr = [NSArray arrayWithObjects:
+                       [BaseAnimation class],
+                       [GroupAnimation class],
+                       [AdvancedAnimation class],
+                       [CustomAnimation class],
+                       nil];
     }
     return _contentArr;
 }
